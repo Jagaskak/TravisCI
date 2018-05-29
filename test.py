@@ -10,4 +10,5 @@ try:
     try_assert()
 except:
     # Supposed to fail, so don't do anything
+    pass
     
