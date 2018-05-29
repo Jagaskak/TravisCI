@@ -1,0 +1,35 @@
+language: python
+python:
+ - "2.7"
+# - "3.6"
+# sudo: enabled
+
+
+# You can install various packages here. USE PIP!
+# install: 
+# - pip install -r requirements.txt
+
+
+# Need to do something before the script runs?
+# before_script: 
+
+
+# What TravisCI will build
+script: 
+  - python test.py
+  
+# You can even specify different tests based on env vars
+#  - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then python test.py
+
+
+# Need to do something after the script succeeds? Like code coverage?
+# after_success: codecov
+
+# You can also set up notifications, there are more options as well
+# Make sure that the email address you use is registered on GIT or has been approved by TravisCI
+# notifications:
+#  email:
+#    recipients:
+#      - akshaya2@illinois.edu
+#    on_success: always
+#    on_failure: always
