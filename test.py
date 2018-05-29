@@ -1,4 +1,4 @@
-def assert():
+def try_assert():
     assert(1 + 1 == 1)
  
 def dont_assert():
