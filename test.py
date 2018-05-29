@@ -4,9 +4,6 @@ def try_assert():
 def dont_assert():
     assert(1 + 1 == 2)
     
-try:
-    try_assert():
-except:
-    dont_assert()
-    return 0
+dont_assert()
+try_assert()
     
