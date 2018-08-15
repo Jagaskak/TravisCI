@@ -17,7 +17,6 @@ python:
 # What TravisCI will build
 script: 
   - python test.py
-  - echo "HELLO WORLD"
   
 # You can even specify different tests based on env vars
 #  - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then python test.py
